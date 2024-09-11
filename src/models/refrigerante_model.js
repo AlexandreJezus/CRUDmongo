@@ -5,11 +5,11 @@ const Schema = db.Schema;
 const refrigeranteSchema = new Schema({
   porcentagem_suco: {
     type: Number,
-    required: true,
+    required: false,
   },
   kcal200ml: {
     type: Number,
-    required: true,
+    required: false,
   },
   sabor: {
     type: String,
@@ -17,7 +17,7 @@ const refrigeranteSchema = new Schema({
   },
   tamanhoMl: {
     type: Number,
-    required: true,
+    required: false,
   },
 });
 
