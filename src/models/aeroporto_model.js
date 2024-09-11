@@ -9,7 +9,7 @@ const aeroportoSchema = new Schema({
   },
   endereco: {
     type: String,
-    required: true,
+    required: false,
   },
 });
 

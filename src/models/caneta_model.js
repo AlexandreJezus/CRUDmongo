@@ -8,8 +8,8 @@ const canetaSchema = new Schema({
     required: true,
   },
   ehBic: {
-    type: Boolean,
-    required: true,
+    type: String,
+    required: false,
   },
 });
 

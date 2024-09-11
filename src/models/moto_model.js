@@ -9,11 +9,11 @@ const motoSchema = new Schema({
   },
   cor: {
     type: String,
-    required: true,
+    required: false,
   },
   modelo: {
     type: String,
-    required: true,
+    required: false,
   },
   cilindrada: {
     type: Number,
@@ -21,7 +21,7 @@ const motoSchema = new Schema({
   },
   peso: {
     type: Number,
-    required: true,
+    required: false,
   },
 });
 
